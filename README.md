@@ -19,10 +19,9 @@ testuser2|0.0|2018.09.12
 	+ 需要对输入输出重定向，这个比较固定，main函数最开始加两行stdin/stdout重定向就好，记得更换文件名
 	+ 代码文件名和task和重定向的文件名都一致
 	
-	
-	```
 	例子：
 	题目：[Your Ride Is Here](http://train.usaco.org/usacoprob2?a=wrYmw944MTs&S=ride)
+	```
 	
 	task：ride
 	代码文件名：ride.cpp
