@@ -20,13 +20,13 @@ int main()
     int n;
     string name;
     cin >> n;
-    for(int i = 0; i < n; i++)
+    for (int i = 0; i < n; i++)
     {
         cin >> name;
         ans[name] = 0;
         vs.push_back(name);
     }
-    while(cin >> name)
+    while (cin >> name)
     {
         int money,number;
         cin >> money >> number;
