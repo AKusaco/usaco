@@ -18,10 +18,10 @@ char a[13], b[13];
 int main() {
     freopen("namenum.in", "r", stdin);
     freopen("namenum.out", "w", stdout);
-    freopen("dict.txt", "r", stderr);
+    freopen("dict.txt", "r", stdin);
     cin >> a;
     bool flag1, flag2 = false;
-    while (fscanf(stderr, "%s", b) != EOF) {
+    while (fscanf(stdin, "%s", b) != EOF) {
     	flag1 = true;
     	if (strlen(a) != strlen(b)) continue;
     	for (int i = 0; flag1 && b[i]; i++) {
