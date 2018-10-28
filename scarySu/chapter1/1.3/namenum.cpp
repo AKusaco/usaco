@@ -18,9 +18,9 @@ char a[13], b[13];
 int main() {
     freopen("namenum.in", "r", stdin);
     freopen("namenum.out", "w", stdout);
-    freopen("dict.txt", "r", stdin);
     cin >> a;
     bool flag1, flag2 = false;
+    freopen("dict.txt", "r", stdin);
     while (fscanf(stdin, "%s", b) != EOF) {
     	flag1 = true;
     	if (strlen(a) != strlen(b)) continue;
@@ -37,3 +37,4 @@ int main() {
     	cout << "NONE" << endl;
     return 0;
 }
+
